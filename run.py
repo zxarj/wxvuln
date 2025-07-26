@@ -73,9 +73,12 @@ def get_md_path(executable_path,url):
 
 
 
-def get_doonsec_url():
-    '''从 Doonsec RSS 获取今日URL、日期和标题，返回(url, date, title)元组列表'''
+def get_doonsec_url(target_date=None):
+    '''从 Doonsec RSS 获取指定日期的URL、日期和标题，返回(url, date, title)元组列表'''
     logger.info("开始获取Doonsec RSS")
+    if target_date:
+        logger.info(f"目标日期: {target_date}")
+    
     cookies = {
         'UM_follow': 'True',
         'UM_distinctids': 'fgmr',
@@ -118,12 +121,20 @@ def get_doonsec_url():
                 except:
                     date_str = ''
             
+            # 如果指定了目标日期，则只返回该日期的文章
+            if target_date and date_str != target_date:
+                logger.debug(f"跳过非目标日期的文章: {date_str} != {target_date}")
+                continue
+            
             # 只检查是否为微信链接，不进行关键词过滤
             if link.startswith('https://mp.weixin.qq.com/'):
                 url_date_title_list.append((link.rstrip(')'), date_str, title))
-                logger.debug(f"获取到文章: {title} -> {link}")
+                logger.debug(f"获取到文章: {title} -> {link} (日期: {date_str})")
         
-        logger.info(f"Doonsec获取到 {len(url_date_title_list)} 个微信文章URL")
+        if target_date:
+            logger.info(f"Doonsec获取到 {len(url_date_title_list)} 个{target_date}的微信文章URL")
+        else:
+            logger.info(f"Doonsec获取到 {len(url_date_title_list)} 个微信文章URL")
         return url_date_title_list
     except Exception as e:
         logger.error(f"Doonsec RSS解析失败: {e}")
@@ -671,12 +682,16 @@ def main():
                 urls = re.findall(r'(https://mp.weixin.qq.com/[\w\-\?&=%.]+)', content, re.I)
                 urls = [url.rstrip(')') for url in urls]
                 chainreactors_urls = urls
-            process_one_day(date_str, doonsec_list, chainreactors_urls, brucefeiix_urls, data, data_file, base_result_path, executable_path)
+            try:
+                process_one_day(date_str, doonsec_list, chainreactors_urls, brucefeiix_urls, data, data_file, base_result_path, executable_path)
+            except Exception as e:
+                logger.error(f"处理日期 {date_str} 时发生错误: {e}")
+                logger.error("跳过当前日期的处理")
             current_date += datetime.timedelta(days=1)
     elif args.date:
         logger.info(f"=== 开始指定日期拉取: {args.date} ===")
         date_str = args.date
-        doonsec_list = get_doonsec_url()  # [(url, date, title)]
+        doonsec_list = get_doonsec_url(date_str)  # [(url, date, title)]
         # ChainReactors
         chainreactors_urls = []
         cr_md_url = get_chainreactors_md_url(date_str)
@@ -711,16 +726,30 @@ def main():
                 logger.error(f"BruceFeIix md解析失败: {e}")
         else:
             logger.warning("BruceFeIix md文件URL为空")
-        process_one_day(date_str, doonsec_list, chainreactors_urls, brucefeiix_urls, data, data_file, base_result_path, executable_path)
+        try:
+            process_one_day(date_str, doonsec_list, chainreactors_urls, brucefeiix_urls, data, data_file, base_result_path, executable_path)
+        except Exception as e:
+            logger.error(f"处理日期 {date_str} 时发生错误: {e}")
+            logger.error("跳过当前日期的处理")
     elif args.range:
         logger.info(f"=== 开始日期区间拉取: {args.range[0]} 到 {args.range[1]} ===")
         start, end = args.range
         start_dt = datetime.datetime.strptime(start, "%Y-%m-%d")
         end_dt = datetime.datetime.strptime(end, "%Y-%m-%d")
         current_date = start_dt
+        
+        # 统计区间内的总天数
+        total_days = (end_dt - start_dt).days + 1
+        processed_days = 0
+        
         while current_date <= end_dt:
+            processed_days += 1
             date_str = current_date.strftime('%Y-%m-%d')
-            doonsec_list = get_doonsec_url()
+            logger.info(f"=== 处理第 {processed_days}/{total_days} 天: {date_str} ===")
+            
+            # 获取指定日期的Doonsec数据
+            doonsec_list = get_doonsec_url(date_str)
+            
             # ChainReactors
             chainreactors_urls = []
             cr_md_url = get_chainreactors_md_url(date_str)
@@ -738,6 +767,7 @@ def main():
                     logger.error(f"ChainReactors md解析失败: {e}")
             else:
                 logger.warning("ChainReactors md文件URL为空")
+            
             # BruceFeIix
             brucefeiix_urls = []
             bf_md_url = get_BruceFeIix_md_url(date_str)
@@ -755,13 +785,21 @@ def main():
                     logger.error(f"BruceFeIix md解析失败: {e}")
             else:
                 logger.warning("BruceFeIix md文件URL为空")
-            process_one_day(date_str, doonsec_list, chainreactors_urls, brucefeiix_urls, data, data_file, base_result_path, executable_path)
+            
+            # 处理当前日期的数据
+            try:
+                process_one_day(date_str, doonsec_list, chainreactors_urls, brucefeiix_urls, data, data_file, base_result_path, executable_path)
+                logger.info(f"=== 完成第 {processed_days}/{total_days} 天处理 ===")
+            except Exception as e:
+                logger.error(f"=== 第 {processed_days}/{total_days} 天处理失败: {e} ===")
+                logger.error(f"跳过 {date_str} 的处理，继续下一个日期")
+            
             current_date += datetime.timedelta(days=1)
     else:
         logger.info("=== 开始今日拉取 ===")
         current_date = datetime.datetime.now()
         date_str = current_date.strftime('%Y-%m-%d')
-        doonsec_list = get_doonsec_url()
+        doonsec_list = get_doonsec_url(date_str)
         # ChainReactors
         chainreactors_urls = []
         cr_md_url = get_chainreactors_md_url(date_str)
@@ -796,7 +834,11 @@ def main():
                 logger.error(f"BruceFeIix md解析失败: {e}")
         else:
             logger.warning("BruceFeIix md文件URL为空")
-        process_one_day(date_str, doonsec_list, chainreactors_urls, brucefeiix_urls, data, data_file, base_result_path, executable_path)
+        try:
+            process_one_day(date_str, doonsec_list, chainreactors_urls, brucefeiix_urls, data, data_file, base_result_path, executable_path)
+        except Exception as e:
+            logger.error(f"处理日期 {date_str} 时发生错误: {e}")
+            logger.error("跳过当前日期的处理")
     logger.info("=== 执行完成 ===")
 
 if __name__ == '__main__':
