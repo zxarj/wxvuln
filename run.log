@@ -473,3 +473,672 @@
 2025-07-26 18:28:03,832 - ERROR - === 第 5/5 天处理失败: [Errno 8] Exec format error: './bin/wechatmp2markdown-v1.1.11_linux_amd64' ===
 2025-07-26 18:28:03,832 - ERROR - 跳过 2025-07-26 的处理，继续下一个日期
 2025-07-26 18:28:03,832 - INFO - === 执行完成 ===
+2025-07-26 18:34:29,627 - INFO - === 开始执行微信文章归档工具 ===
+2025-07-26 18:34:33,045 - INFO - === 开始执行微信文章归档工具 ===
+2025-07-26 18:34:33,046 - INFO - 数据文件: data.json
+2025-07-26 18:34:33,047 - INFO - 可执行文件: ./bin/wechatmp2markdown-v1.1.11_linux_amd64
+2025-07-26 18:34:33,047 - INFO - 文档目录: doc
+2025-07-26 18:34:33,080 - INFO - 已加载 17083 条历史记录
+2025-07-26 18:34:33,081 - INFO - === 开始指定日期拉取: 2025-07-26 ===
+2025-07-26 18:34:33,081 - INFO - 开始获取Doonsec RSS
+2025-07-26 18:34:33,081 - INFO - 目标日期: 2025-07-26
+2025-07-26 18:34:33,519 - INFO - Doonsec RSS请求成功
+2025-07-26 18:34:33,523 - INFO - RSS中共有 200 个条目
+2025-07-26 18:34:33,524 - INFO - Doonsec获取到 114 个2025-07-26的微信文章URL
+2025-07-26 18:34:33,525 - INFO - ChainReactors md文件URL: https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/2025/2025-07-26.md
+2025-07-26 18:34:34,122 - INFO - ChainReactors md文件下载状态码: 200
+2025-07-26 18:34:34,124 - INFO - ChainReactors获取到 219 个URL
+2025-07-26 18:34:34,124 - INFO - BruceFeIix md文件URL: https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/2025/2025-07-26.md
+2025-07-26 18:34:34,786 - INFO - BruceFeIix md文件下载状态码: 200
+2025-07-26 18:34:34,787 - INFO - BruceFeIix获取到 215 个URL
+2025-07-26 18:34:34,787 - INFO - === 开始处理 2025-07-26 的数据 ===
+2025-07-26 18:34:34,787 - INFO - Doonsec原始数据: 114 个
+2025-07-26 18:34:34,787 - INFO - ChainReactors原始数据: 219 个
+2025-07-26 18:34:34,788 - INFO - BruceFeIix原始数据: 215 个
+2025-07-26 18:34:34,788 - INFO - 开始处理Doonsec数据...
+2025-07-26 18:34:34,788 - INFO - 开始处理ChainReactors数据...
+2025-07-26 18:34:34,788 - INFO - 开始处理BruceFeIix数据...
+2025-07-26 18:34:34,788 - INFO - 去重后共 307 个URL待处理，跳过 241 个重复URL
+2025-07-26 18:34:34,788 - INFO - 去重后统计 - Doonsec: 114 个, ChainReactors: 193 个, BruceFeIix: 0 个
+2025-07-26 18:34:34,788 - INFO - === 开始关键词过滤 ===
+2025-07-26 18:34:34,802 - INFO - 关键词过滤: 匹配 47 个，跳过 260 个
+2025-07-26 18:34:34,802 - INFO - 关键词过滤后统计 - Doonsec: 1 个, ChainReactors: 46 个, BruceFeIix: 0 个
+2025-07-26 18:34:34,805 - INFO - 已创建每日报告: md/2025-07-26.md
+2025-07-26 18:34:34,805 - INFO - === 跳过二进制文件处理，只更新data.json ===
+2025-07-26 18:34:34,838 - INFO - 已更新data.json，添加了 47 个URL
+2025-07-26 18:34:34,839 - INFO - 已创建每日报告: md/2025-07-26.md
+2025-07-26 18:34:34,839 - INFO - === 执行完成 ===
+2025-07-26 18:34:38,590 - INFO - === 开始执行微信文章归档工具 ===
+2025-07-26 18:34:38,591 - INFO - 数据文件: data.json
+2025-07-26 18:34:38,591 - INFO - 可执行文件: ./bin/wechatmp2markdown-v1.1.11_linux_amd64
+2025-07-26 18:34:38,591 - INFO - 文档目录: doc
+2025-07-26 18:34:38,625 - INFO - 已加载 17130 条历史记录
+2025-07-26 18:34:38,625 - INFO - === 开始日期区间拉取: 2025-07-25 到 2025-07-26 ===
+2025-07-26 18:34:38,627 - INFO - === 处理第 1/2 天: 2025-07-25 ===
+2025-07-26 18:34:38,627 - INFO - 开始获取Doonsec RSS
+2025-07-26 18:34:38,627 - INFO - 目标日期: 2025-07-25
+2025-07-26 18:34:39,063 - INFO - Doonsec RSS请求成功
+2025-07-26 18:34:39,067 - INFO - RSS中共有 200 个条目
+2025-07-26 18:34:39,068 - INFO - Doonsec获取到 86 个2025-07-25的微信文章URL
+2025-07-26 18:34:39,069 - INFO - ChainReactors md文件URL: https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/2025/2025-07-25.md
+2025-07-26 18:34:39,606 - INFO - ChainReactors md文件下载状态码: 200
+2025-07-26 18:34:39,607 - INFO - ChainReactors获取到 196 个URL
+2025-07-26 18:34:39,607 - INFO - BruceFeIix md文件URL: https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/2025/2025-07-25.md
+2025-07-26 18:34:40,218 - INFO - BruceFeIix md文件下载状态码: 200
+2025-07-26 18:34:40,219 - INFO - BruceFeIix获取到 193 个URL
+2025-07-26 18:34:40,219 - INFO - === 开始处理 2025-07-25 的数据 ===
+2025-07-26 18:34:40,219 - INFO - Doonsec原始数据: 86 个
+2025-07-26 18:34:40,219 - INFO - ChainReactors原始数据: 196 个
+2025-07-26 18:34:40,219 - INFO - BruceFeIix原始数据: 193 个
+2025-07-26 18:34:40,219 - INFO - 开始处理Doonsec数据...
+2025-07-26 18:34:40,220 - INFO - 开始处理ChainReactors数据...
+2025-07-26 18:34:40,220 - INFO - 开始处理BruceFeIix数据...
+2025-07-26 18:34:40,220 - INFO - 去重后共 258 个URL待处理，跳过 217 个重复URL
+2025-07-26 18:34:40,220 - INFO - 去重后统计 - Doonsec: 70 个, ChainReactors: 188 个, BruceFeIix: 0 个
+2025-07-26 18:34:40,220 - INFO - === 开始关键词过滤 ===
+2025-07-26 18:34:40,232 - INFO - 关键词过滤: 匹配 56 个，跳过 202 个
+2025-07-26 18:34:40,232 - INFO - 关键词过滤后统计 - Doonsec: 1 个, ChainReactors: 55 个, BruceFeIix: 0 个
+2025-07-26 18:34:40,233 - INFO - 已创建每日报告: md/2025-07-25.md
+2025-07-26 18:34:40,233 - INFO - === 跳过二进制文件处理，只更新data.json ===
+2025-07-26 18:34:40,265 - INFO - 已更新data.json，添加了 56 个URL
+2025-07-26 18:34:40,266 - INFO - 已创建每日报告: md/2025-07-25.md
+2025-07-26 18:34:40,266 - INFO - === 完成第 1/2 天处理 ===
+2025-07-26 18:34:40,266 - INFO - === 处理第 2/2 天: 2025-07-26 ===
+2025-07-26 18:34:40,266 - INFO - 开始获取Doonsec RSS
+2025-07-26 18:34:40,266 - INFO - 目标日期: 2025-07-26
+2025-07-26 18:34:40,796 - INFO - Doonsec RSS请求成功
+2025-07-26 18:34:40,800 - INFO - RSS中共有 200 个条目
+2025-07-26 18:34:40,800 - INFO - Doonsec获取到 114 个2025-07-26的微信文章URL
+2025-07-26 18:34:40,802 - INFO - ChainReactors md文件URL: https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/2025/2025-07-26.md
+2025-07-26 18:34:41,274 - INFO - ChainReactors md文件下载状态码: 200
+2025-07-26 18:34:41,276 - INFO - ChainReactors获取到 219 个URL
+2025-07-26 18:34:41,276 - INFO - BruceFeIix md文件URL: https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/2025/2025-07-26.md
+2025-07-26 18:34:41,537 - INFO - BruceFeIix md文件下载状态码: 200
+2025-07-26 18:34:41,538 - INFO - BruceFeIix获取到 215 个URL
+2025-07-26 18:34:41,538 - INFO - === 开始处理 2025-07-26 的数据 ===
+2025-07-26 18:34:41,538 - INFO - Doonsec原始数据: 114 个
+2025-07-26 18:34:41,538 - INFO - ChainReactors原始数据: 219 个
+2025-07-26 18:34:41,538 - INFO - BruceFeIix原始数据: 215 个
+2025-07-26 18:34:41,538 - INFO - 开始处理Doonsec数据...
+2025-07-26 18:34:41,538 - INFO - 开始处理ChainReactors数据...
+2025-07-26 18:34:41,538 - INFO - 开始处理BruceFeIix数据...
+2025-07-26 18:34:41,538 - INFO - 去重后共 260 个URL待处理，跳过 288 个重复URL
+2025-07-26 18:34:41,539 - INFO - 去重后统计 - Doonsec: 113 个, ChainReactors: 147 个, BruceFeIix: 0 个
+2025-07-26 18:34:41,539 - INFO - === 开始关键词过滤 ===
+2025-07-26 18:34:41,550 - INFO - 关键词过滤: 匹配 0 个，跳过 260 个
+2025-07-26 18:34:41,551 - INFO - 关键词过滤后统计 - Doonsec: 0 个, ChainReactors: 0 个, BruceFeIix: 0 个
+2025-07-26 18:34:41,551 - INFO - === 跳过二进制文件处理，只更新data.json ===
+2025-07-26 18:34:41,583 - INFO - 已更新data.json，添加了 0 个URL
+2025-07-26 18:34:41,583 - INFO - === 完成第 2/2 天处理 ===
+2025-07-26 18:34:41,583 - INFO - === 执行完成 ===
+2025-07-26 18:34:54,878 - INFO - === 开始执行微信文章归档工具 ===
+2025-07-26 18:34:54,880 - INFO - 数据文件: data.json
+2025-07-26 18:34:54,880 - INFO - 可执行文件: ./bin/wechatmp2markdown-v1.1.11_linux_amd64
+2025-07-26 18:34:54,880 - INFO - 文档目录: doc
+2025-07-26 18:34:54,914 - INFO - 已加载 17186 条历史记录
+2025-07-26 18:34:54,914 - INFO - === 开始指定日期拉取: 2025-07-26 ===
+2025-07-26 18:34:54,914 - INFO - 开始获取Doonsec RSS
+2025-07-26 18:34:54,914 - INFO - 目标日期: 2025-07-26
+2025-07-26 18:34:55,286 - INFO - Doonsec RSS请求成功
+2025-07-26 18:34:55,289 - INFO - RSS中共有 200 个条目
+2025-07-26 18:34:55,290 - INFO - Doonsec获取到 114 个2025-07-26的微信文章URL
+2025-07-26 18:34:55,291 - INFO - ChainReactors md文件URL: https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/2025/2025-07-26.md
+2025-07-26 18:34:55,560 - INFO - ChainReactors md文件下载状态码: 200
+2025-07-26 18:34:55,562 - INFO - ChainReactors获取到 219 个URL
+2025-07-26 18:34:55,562 - INFO - BruceFeIix md文件URL: https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/2025/2025-07-26.md
+2025-07-26 18:34:55,883 - INFO - BruceFeIix md文件下载状态码: 200
+2025-07-26 18:34:55,884 - INFO - BruceFeIix获取到 215 个URL
+2025-07-26 18:34:55,884 - INFO - === 开始处理 2025-07-26 的数据 ===
+2025-07-26 18:34:55,884 - INFO - Doonsec原始数据: 114 个
+2025-07-26 18:34:55,884 - INFO - ChainReactors原始数据: 219 个
+2025-07-26 18:34:55,884 - INFO - BruceFeIix原始数据: 215 个
+2025-07-26 18:34:55,884 - INFO - 开始处理Doonsec数据...
+2025-07-26 18:34:55,885 - INFO - 开始处理ChainReactors数据...
+2025-07-26 18:34:55,885 - INFO - 开始处理BruceFeIix数据...
+2025-07-26 18:34:55,885 - INFO - 去重后共 260 个URL待处理，跳过 288 个重复URL
+2025-07-26 18:34:55,885 - INFO - 去重后统计 - Doonsec: 113 个, ChainReactors: 147 个, BruceFeIix: 0 个
+2025-07-26 18:34:55,885 - INFO - === 开始关键词过滤 ===
+2025-07-26 18:34:55,897 - INFO - 关键词过滤: 匹配 0 个，跳过 260 个
+2025-07-26 18:34:55,897 - INFO - 关键词过滤后统计 - Doonsec: 0 个, ChainReactors: 0 个, BruceFeIix: 0 个
+2025-07-26 18:34:55,897 - INFO - === 执行完成 ===
+2025-07-26 18:35:56,338 - INFO - === 开始执行微信文章归档工具 ===
+2025-07-26 18:35:56,339 - INFO - 数据文件: data.json
+2025-07-26 18:35:56,339 - INFO - 可执行文件: ./bin/wechatmp2markdown-v1.1.11_linux_amd64
+2025-07-26 18:35:56,339 - INFO - 文档目录: doc
+2025-07-26 18:35:56,372 - INFO - 已加载 17186 条历史记录
+2025-07-26 18:35:56,373 - INFO - === 开始指定日期拉取: 2025-07-26 ===
+2025-07-26 18:35:56,373 - INFO - 开始获取Doonsec RSS
+2025-07-26 18:35:56,373 - INFO - 目标日期: 2025-07-26
+2025-07-26 18:35:56,778 - INFO - Doonsec RSS请求成功
+2025-07-26 18:35:56,781 - INFO - RSS中共有 200 个条目
+2025-07-26 18:35:56,781 - INFO - Doonsec获取到 114 个2025-07-26的微信文章URL
+2025-07-26 18:35:56,783 - INFO - ChainReactors md文件URL: https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/2025/2025-07-26.md
+2025-07-26 18:35:57,025 - INFO - ChainReactors md文件下载状态码: 200
+2025-07-26 18:35:57,027 - INFO - ChainReactors获取到 219 个URL
+2025-07-26 18:35:57,027 - INFO - BruceFeIix md文件URL: https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/2025/2025-07-26.md
+2025-07-26 18:35:57,287 - INFO - BruceFeIix md文件下载状态码: 200
+2025-07-26 18:35:57,288 - INFO - BruceFeIix获取到 215 个URL
+2025-07-26 18:35:57,288 - INFO - === 开始处理 2025-07-26 的数据 ===
+2025-07-26 18:35:57,288 - INFO - Doonsec原始数据: 114 个
+2025-07-26 18:35:57,289 - INFO - ChainReactors原始数据: 219 个
+2025-07-26 18:35:57,289 - INFO - BruceFeIix原始数据: 215 个
+2025-07-26 18:35:57,289 - INFO - 开始处理Doonsec数据...
+2025-07-26 18:35:57,289 - INFO - 开始处理ChainReactors数据...
+2025-07-26 18:35:57,289 - INFO - 开始处理BruceFeIix数据...
+2025-07-26 18:35:57,289 - INFO - 去重后共 260 个URL待处理，跳过 288 个重复URL
+2025-07-26 18:35:57,289 - INFO - 去重后统计 - Doonsec: 113 个, ChainReactors: 147 个, BruceFeIix: 0 个
+2025-07-26 18:35:57,289 - INFO - === 开始关键词过滤 ===
+2025-07-26 18:35:57,303 - INFO - 关键词过滤: 匹配 0 个，跳过 260 个
+2025-07-26 18:35:57,303 - INFO - 关键词过滤后统计 - Doonsec: 0 个, ChainReactors: 0 个, BruceFeIix: 0 个
+2025-07-26 18:35:57,303 - INFO - === 跳过二进制文件处理，只更新data.json ===
+2025-07-26 18:35:57,334 - INFO - 已更新data.json，添加了 0 个URL
+2025-07-26 18:35:57,335 - INFO - === 执行完成 ===
+2025-07-26 18:36:00,932 - INFO - === 开始执行微信文章归档工具 ===
+2025-07-26 18:36:00,933 - INFO - 数据文件: data.json
+2025-07-26 18:36:00,933 - INFO - 可执行文件: ./bin/wechatmp2markdown-v1.1.11_linux_amd64
+2025-07-26 18:36:00,933 - INFO - 文档目录: doc
+2025-07-26 18:36:00,966 - INFO - 已加载 17186 条历史记录
+2025-07-26 18:36:00,966 - INFO - === 开始日期区间拉取: 2025-07-25 到 2025-07-26 ===
+2025-07-26 18:36:00,967 - INFO - === 处理第 1/2 天: 2025-07-25 ===
+2025-07-26 18:36:00,967 - INFO - 开始获取Doonsec RSS
+2025-07-26 18:36:00,968 - INFO - 目标日期: 2025-07-25
+2025-07-26 18:36:01,385 - INFO - Doonsec RSS请求成功
+2025-07-26 18:36:01,388 - INFO - RSS中共有 200 个条目
+2025-07-26 18:36:01,388 - INFO - Doonsec获取到 86 个2025-07-25的微信文章URL
+2025-07-26 18:36:01,390 - INFO - ChainReactors md文件URL: https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/2025/2025-07-25.md
+2025-07-26 18:36:01,788 - INFO - ChainReactors md文件下载状态码: 200
+2025-07-26 18:36:01,790 - INFO - ChainReactors获取到 196 个URL
+2025-07-26 18:36:01,791 - INFO - BruceFeIix md文件URL: https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/2025/2025-07-25.md
+2025-07-26 18:36:02,231 - INFO - BruceFeIix md文件下载状态码: 200
+2025-07-26 18:36:02,232 - INFO - BruceFeIix获取到 193 个URL
+2025-07-26 18:36:02,232 - INFO - === 开始处理 2025-07-25 的数据 ===
+2025-07-26 18:36:02,232 - INFO - Doonsec原始数据: 86 个
+2025-07-26 18:36:02,232 - INFO - ChainReactors原始数据: 196 个
+2025-07-26 18:36:02,233 - INFO - BruceFeIix原始数据: 193 个
+2025-07-26 18:36:02,233 - INFO - 开始处理Doonsec数据...
+2025-07-26 18:36:02,233 - INFO - 开始处理ChainReactors数据...
+2025-07-26 18:36:02,233 - INFO - 开始处理BruceFeIix数据...
+2025-07-26 18:36:02,233 - INFO - 去重后共 202 个URL待处理，跳过 273 个重复URL
+2025-07-26 18:36:02,233 - INFO - 去重后统计 - Doonsec: 69 个, ChainReactors: 133 个, BruceFeIix: 0 个
+2025-07-26 18:36:02,233 - INFO - === 开始关键词过滤 ===
+2025-07-26 18:36:02,244 - INFO - 关键词过滤: 匹配 0 个，跳过 202 个
+2025-07-26 18:36:02,244 - INFO - 关键词过滤后统计 - Doonsec: 0 个, ChainReactors: 0 个, BruceFeIix: 0 个
+2025-07-26 18:36:02,244 - INFO - === 跳过二进制文件处理，只更新data.json ===
+2025-07-26 18:36:02,276 - INFO - 已更新data.json，添加了 0 个URL
+2025-07-26 18:36:02,276 - INFO - === 完成第 1/2 天处理 ===
+2025-07-26 18:36:02,276 - INFO - === 处理第 2/2 天: 2025-07-26 ===
+2025-07-26 18:36:02,276 - INFO - 开始获取Doonsec RSS
+2025-07-26 18:36:02,276 - INFO - 目标日期: 2025-07-26
+2025-07-26 18:36:03,378 - INFO - Doonsec RSS请求成功
+2025-07-26 18:36:03,381 - INFO - RSS中共有 200 个条目
+2025-07-26 18:36:03,382 - INFO - Doonsec获取到 114 个2025-07-26的微信文章URL
+2025-07-26 18:36:03,383 - INFO - ChainReactors md文件URL: https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/2025/2025-07-26.md
+2025-07-26 18:36:03,666 - INFO - ChainReactors md文件下载状态码: 200
+2025-07-26 18:36:03,667 - INFO - ChainReactors获取到 219 个URL
+2025-07-26 18:36:03,667 - INFO - BruceFeIix md文件URL: https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/2025/2025-07-26.md
+2025-07-26 18:36:03,914 - INFO - BruceFeIix md文件下载状态码: 200
+2025-07-26 18:36:03,916 - INFO - BruceFeIix获取到 215 个URL
+2025-07-26 18:36:03,916 - INFO - === 开始处理 2025-07-26 的数据 ===
+2025-07-26 18:36:03,916 - INFO - Doonsec原始数据: 114 个
+2025-07-26 18:36:03,916 - INFO - ChainReactors原始数据: 219 个
+2025-07-26 18:36:03,916 - INFO - BruceFeIix原始数据: 215 个
+2025-07-26 18:36:03,916 - INFO - 开始处理Doonsec数据...
+2025-07-26 18:36:03,916 - INFO - 开始处理ChainReactors数据...
+2025-07-26 18:36:03,917 - INFO - 开始处理BruceFeIix数据...
+2025-07-26 18:36:03,917 - INFO - 去重后共 260 个URL待处理，跳过 288 个重复URL
+2025-07-26 18:36:03,917 - INFO - 去重后统计 - Doonsec: 113 个, ChainReactors: 147 个, BruceFeIix: 0 个
+2025-07-26 18:36:03,917 - INFO - === 开始关键词过滤 ===
+2025-07-26 18:36:03,931 - INFO - 关键词过滤: 匹配 0 个，跳过 260 个
+2025-07-26 18:36:03,931 - INFO - 关键词过滤后统计 - Doonsec: 0 个, ChainReactors: 0 个, BruceFeIix: 0 个
+2025-07-26 18:36:03,931 - INFO - === 跳过二进制文件处理，只更新data.json ===
+2025-07-26 18:36:03,964 - INFO - 已更新data.json，添加了 0 个URL
+2025-07-26 18:36:03,964 - INFO - === 完成第 2/2 天处理 ===
+2025-07-26 18:36:03,964 - INFO - === 执行完成 ===
+2025-07-26 18:36:07,518 - INFO - === 开始执行微信文章归档工具 ===
+2025-07-26 18:36:07,519 - INFO - 数据文件: data.json
+2025-07-26 18:36:07,519 - INFO - 可执行文件: ./bin/wechatmp2markdown-v1.1.11_linux_amd64
+2025-07-26 18:36:07,519 - INFO - 文档目录: doc
+2025-07-26 18:36:07,554 - INFO - 已加载 17186 条历史记录
+2025-07-26 18:36:07,554 - INFO - === 开始指定日期拉取: 2025-07-20 ===
+2025-07-26 18:36:07,554 - INFO - 开始获取Doonsec RSS
+2025-07-26 18:36:07,554 - INFO - 目标日期: 2025-07-20
+2025-07-26 18:36:09,018 - INFO - Doonsec RSS请求成功
+2025-07-26 18:36:09,022 - INFO - RSS中共有 200 个条目
+2025-07-26 18:36:09,023 - INFO - Doonsec获取到 0 个2025-07-20的微信文章URL
+2025-07-26 18:36:09,024 - INFO - ChainReactors md文件URL: https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/2025/2025-07-20.md
+2025-07-26 18:36:09,590 - INFO - ChainReactors md文件下载状态码: 200
+2025-07-26 18:36:09,591 - INFO - ChainReactors获取到 168 个URL
+2025-07-26 18:36:09,591 - INFO - BruceFeIix md文件URL: https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/2025/2025-07-20.md
+2025-07-26 18:36:10,153 - INFO - BruceFeIix md文件下载状态码: 200
+2025-07-26 18:36:10,154 - INFO - BruceFeIix获取到 166 个URL
+2025-07-26 18:36:10,154 - INFO - === 开始处理 2025-07-20 的数据 ===
+2025-07-26 18:36:10,154 - INFO - Doonsec原始数据: 0 个
+2025-07-26 18:36:10,154 - INFO - ChainReactors原始数据: 168 个
+2025-07-26 18:36:10,154 - INFO - BruceFeIix原始数据: 166 个
+2025-07-26 18:36:10,154 - INFO - 开始处理Doonsec数据...
+2025-07-26 18:36:10,154 - INFO - 开始处理ChainReactors数据...
+2025-07-26 18:36:10,155 - INFO - 开始处理BruceFeIix数据...
+2025-07-26 18:36:10,155 - INFO - 去重后共 128 个URL待处理，跳过 206 个重复URL
+2025-07-26 18:36:10,155 - INFO - 去重后统计 - Doonsec: 0 个, ChainReactors: 128 个, BruceFeIix: 0 个
+2025-07-26 18:36:10,155 - INFO - === 开始关键词过滤 ===
+2025-07-26 18:36:10,161 - INFO - 关键词过滤: 匹配 16 个，跳过 112 个
+2025-07-26 18:36:10,161 - INFO - 关键词过滤后统计 - Doonsec: 0 个, ChainReactors: 16 个, BruceFeIix: 0 个
+2025-07-26 18:36:10,164 - INFO - 已创建每日报告: md/2025-07-20.md
+2025-07-26 18:36:10,164 - INFO - === 跳过二进制文件处理，只更新data.json ===
+2025-07-26 18:36:10,196 - INFO - 已更新data.json，添加了 16 个URL
+2025-07-26 18:36:10,197 - INFO - 已创建每日报告: md/2025-07-20.md
+2025-07-26 18:36:10,197 - INFO - === 执行完成 ===
+2025-07-26 18:36:18,224 - INFO - === 开始执行微信文章归档工具 ===
+2025-07-26 18:36:18,225 - INFO - 数据文件: data.json
+2025-07-26 18:36:18,225 - INFO - 可执行文件: ./bin/wechatmp2markdown-v1.1.11_linux_amd64
+2025-07-26 18:36:18,225 - INFO - 文档目录: doc
+2025-07-26 18:36:18,257 - INFO - 已加载 17202 条历史记录
+2025-07-26 18:36:18,258 - INFO - === 开始指定日期拉取: 2025-07-20 ===
+2025-07-26 18:36:18,258 - INFO - 开始获取Doonsec RSS
+2025-07-26 18:36:18,258 - INFO - 目标日期: 2025-07-20
+2025-07-26 18:36:18,601 - INFO - Doonsec RSS请求成功
+2025-07-26 18:36:18,604 - INFO - RSS中共有 200 个条目
+2025-07-26 18:36:18,604 - INFO - Doonsec获取到 0 个2025-07-20的微信文章URL
+2025-07-26 18:36:18,606 - INFO - ChainReactors md文件URL: https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/2025/2025-07-20.md
+2025-07-26 18:36:18,847 - INFO - ChainReactors md文件下载状态码: 200
+2025-07-26 18:36:18,848 - INFO - ChainReactors获取到 168 个URL
+2025-07-26 18:36:18,848 - INFO - BruceFeIix md文件URL: https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/2025/2025-07-20.md
+2025-07-26 18:36:19,165 - INFO - BruceFeIix md文件下载状态码: 200
+2025-07-26 18:36:19,166 - INFO - BruceFeIix获取到 166 个URL
+2025-07-26 18:36:19,166 - INFO - === 开始处理 2025-07-20 的数据 ===
+2025-07-26 18:36:19,166 - INFO - Doonsec原始数据: 0 个
+2025-07-26 18:36:19,166 - INFO - ChainReactors原始数据: 168 个
+2025-07-26 18:36:19,166 - INFO - BruceFeIix原始数据: 166 个
+2025-07-26 18:36:19,166 - INFO - 开始处理Doonsec数据...
+2025-07-26 18:36:19,166 - INFO - 开始处理ChainReactors数据...
+2025-07-26 18:36:19,166 - INFO - 开始处理BruceFeIix数据...
+2025-07-26 18:36:19,166 - INFO - 去重后共 112 个URL待处理，跳过 222 个重复URL
+2025-07-26 18:36:19,166 - INFO - 去重后统计 - Doonsec: 0 个, ChainReactors: 112 个, BruceFeIix: 0 个
+2025-07-26 18:36:19,166 - INFO - === 开始关键词过滤 ===
+2025-07-26 18:36:19,172 - INFO - 关键词过滤: 匹配 0 个，跳过 112 个
+2025-07-26 18:36:19,173 - INFO - 关键词过滤后统计 - Doonsec: 0 个, ChainReactors: 0 个, BruceFeIix: 0 个
+2025-07-26 18:36:19,173 - INFO - === 跳过二进制文件处理，只更新data.json ===
+2025-07-26 18:36:19,208 - INFO - 已更新data.json，添加了 0 个URL
+2025-07-26 18:36:19,208 - INFO - === 执行完成 ===
+2025-07-26 18:37:37,595 - INFO - === 开始执行微信文章归档工具 ===
+2025-07-26 18:37:37,595 - INFO - GitHub Actions环境: False
+2025-07-26 18:37:37,596 - INFO - 数据文件: data.json
+2025-07-26 18:37:37,596 - INFO - 可执行文件: ./bin/wechatmp2markdown-v1.1.11_linux_amd64
+2025-07-26 18:37:37,596 - INFO - 文档目录: doc
+2025-07-26 18:37:37,629 - INFO - 已加载 17202 条历史记录
+2025-07-26 18:37:37,629 - INFO - === 开始指定日期拉取: 2025-07-20 ===
+2025-07-26 18:37:37,629 - INFO - 开始获取Doonsec RSS
+2025-07-26 18:37:37,629 - INFO - 目标日期: 2025-07-20
+2025-07-26 18:37:37,987 - INFO - Doonsec RSS请求成功
+2025-07-26 18:37:37,990 - INFO - RSS中共有 200 个条目
+2025-07-26 18:37:37,990 - INFO - Doonsec获取到 0 个2025-07-20的微信文章URL
+2025-07-26 18:37:37,992 - INFO - ChainReactors md文件URL: https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/2025/2025-07-20.md
+2025-07-26 18:37:38,177 - INFO - ChainReactors md文件下载状态码: 200
+2025-07-26 18:37:38,178 - INFO - ChainReactors获取到 168 个URL
+2025-07-26 18:37:38,178 - INFO - BruceFeIix md文件URL: https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/2025/2025-07-20.md
+2025-07-26 18:37:38,371 - INFO - BruceFeIix md文件下载状态码: 200
+2025-07-26 18:37:38,372 - INFO - BruceFeIix获取到 166 个URL
+2025-07-26 18:37:38,372 - INFO - === 开始处理 2025-07-20 的数据 ===
+2025-07-26 18:37:38,372 - INFO - Doonsec原始数据: 0 个
+2025-07-26 18:37:38,372 - INFO - ChainReactors原始数据: 168 个
+2025-07-26 18:37:38,372 - INFO - BruceFeIix原始数据: 166 个
+2025-07-26 18:37:38,372 - INFO - 开始处理Doonsec数据...
+2025-07-26 18:37:38,372 - INFO - 开始处理ChainReactors数据...
+2025-07-26 18:37:38,373 - INFO - 开始处理BruceFeIix数据...
+2025-07-26 18:37:38,373 - INFO - 去重后共 112 个URL待处理，跳过 222 个重复URL
+2025-07-26 18:37:38,373 - INFO - 去重后统计 - Doonsec: 0 个, ChainReactors: 112 个, BruceFeIix: 0 个
+2025-07-26 18:37:38,373 - INFO - === 开始关键词过滤 ===
+2025-07-26 18:37:38,379 - INFO - 关键词过滤: 匹配 0 个，跳过 112 个
+2025-07-26 18:37:38,379 - INFO - 关键词过滤后统计 - Doonsec: 0 个, ChainReactors: 0 个, BruceFeIix: 0 个
+2025-07-26 18:37:38,379 - INFO - === 执行完成 ===
+2025-07-26 18:37:42,008 - INFO - === 开始执行微信文章归档工具 ===
+2025-07-26 18:37:42,009 - INFO - GitHub Actions环境: True
+2025-07-26 18:37:42,009 - INFO - 在GitHub Actions环境中运行，默认启用--skip-binary
+2025-07-26 18:37:42,010 - INFO - 数据文件: data.json
+2025-07-26 18:37:42,010 - INFO - 可执行文件: ./bin/wechatmp2markdown-v1.1.11_linux_amd64
+2025-07-26 18:37:42,010 - INFO - 文档目录: doc
+2025-07-26 18:37:42,041 - INFO - 已加载 17202 条历史记录
+2025-07-26 18:37:42,041 - INFO - === 开始指定日期拉取: 2025-07-20 ===
+2025-07-26 18:37:42,041 - INFO - 开始获取Doonsec RSS
+2025-07-26 18:37:42,041 - INFO - 目标日期: 2025-07-20
+2025-07-26 18:37:42,481 - INFO - Doonsec RSS请求成功
+2025-07-26 18:37:42,485 - INFO - RSS中共有 200 个条目
+2025-07-26 18:37:42,485 - INFO - Doonsec获取到 0 个2025-07-20的微信文章URL
+2025-07-26 18:37:42,487 - INFO - ChainReactors md文件URL: https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/2025/2025-07-20.md
+2025-07-26 18:37:42,739 - INFO - ChainReactors md文件下载状态码: 200
+2025-07-26 18:37:42,740 - INFO - ChainReactors获取到 168 个URL
+2025-07-26 18:37:42,741 - INFO - BruceFeIix md文件URL: https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/2025/2025-07-20.md
+2025-07-26 18:37:43,006 - INFO - BruceFeIix md文件下载状态码: 200
+2025-07-26 18:37:43,007 - INFO - BruceFeIix获取到 166 个URL
+2025-07-26 18:37:43,007 - INFO - === 开始处理 2025-07-20 的数据 ===
+2025-07-26 18:37:43,007 - INFO - Doonsec原始数据: 0 个
+2025-07-26 18:37:43,007 - INFO - ChainReactors原始数据: 168 个
+2025-07-26 18:37:43,007 - INFO - BruceFeIix原始数据: 166 个
+2025-07-26 18:37:43,007 - INFO - 开始处理Doonsec数据...
+2025-07-26 18:37:43,007 - INFO - 开始处理ChainReactors数据...
+2025-07-26 18:37:43,007 - INFO - 开始处理BruceFeIix数据...
+2025-07-26 18:37:43,007 - INFO - 去重后共 112 个URL待处理，跳过 222 个重复URL
+2025-07-26 18:37:43,007 - INFO - 去重后统计 - Doonsec: 0 个, ChainReactors: 112 个, BruceFeIix: 0 个
+2025-07-26 18:37:43,007 - INFO - === 开始关键词过滤 ===
+2025-07-26 18:37:43,013 - INFO - 关键词过滤: 匹配 0 个，跳过 112 个
+2025-07-26 18:37:43,013 - INFO - 关键词过滤后统计 - Doonsec: 0 个, ChainReactors: 0 个, BruceFeIix: 0 个
+2025-07-26 18:37:43,013 - INFO - === 跳过二进制文件处理，只更新data.json ===
+2025-07-26 18:37:43,046 - INFO - 已更新data.json，添加了 0 个URL
+2025-07-26 18:37:43,046 - INFO - === 执行完成 ===
+2025-07-26 18:37:46,988 - INFO - === 开始执行微信文章归档工具 ===
+2025-07-26 18:37:46,988 - INFO - GitHub Actions环境: True
+2025-07-26 18:37:46,989 - INFO - 数据文件: data.json
+2025-07-26 18:37:46,989 - INFO - 可执行文件: ./bin/wechatmp2markdown-v1.1.11_linux_amd64
+2025-07-26 18:37:46,989 - INFO - 文档目录: doc
+2025-07-26 18:37:47,023 - INFO - 已加载 17202 条历史记录
+2025-07-26 18:37:47,023 - INFO - === 开始指定日期拉取: 2025-07-20 ===
+2025-07-26 18:37:47,023 - INFO - 开始获取Doonsec RSS
+2025-07-26 18:37:47,023 - INFO - 目标日期: 2025-07-20
+2025-07-26 18:37:47,458 - INFO - Doonsec RSS请求成功
+2025-07-26 18:37:47,461 - INFO - RSS中共有 200 个条目
+2025-07-26 18:37:47,462 - INFO - Doonsec获取到 0 个2025-07-20的微信文章URL
+2025-07-26 18:37:47,463 - INFO - ChainReactors md文件URL: https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/2025/2025-07-20.md
+2025-07-26 18:37:47,739 - INFO - ChainReactors md文件下载状态码: 200
+2025-07-26 18:37:47,740 - INFO - ChainReactors获取到 168 个URL
+2025-07-26 18:37:47,740 - INFO - BruceFeIix md文件URL: https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/2025/2025-07-20.md
+2025-07-26 18:37:47,992 - INFO - BruceFeIix md文件下载状态码: 200
+2025-07-26 18:37:47,993 - INFO - BruceFeIix获取到 166 个URL
+2025-07-26 18:37:47,993 - INFO - === 开始处理 2025-07-20 的数据 ===
+2025-07-26 18:37:47,993 - INFO - Doonsec原始数据: 0 个
+2025-07-26 18:37:47,993 - INFO - ChainReactors原始数据: 168 个
+2025-07-26 18:37:47,993 - INFO - BruceFeIix原始数据: 166 个
+2025-07-26 18:37:47,993 - INFO - 开始处理Doonsec数据...
+2025-07-26 18:37:47,993 - INFO - 开始处理ChainReactors数据...
+2025-07-26 18:37:47,993 - INFO - 开始处理BruceFeIix数据...
+2025-07-26 18:37:47,994 - INFO - 去重后共 112 个URL待处理，跳过 222 个重复URL
+2025-07-26 18:37:47,994 - INFO - 去重后统计 - Doonsec: 0 个, ChainReactors: 112 个, BruceFeIix: 0 个
+2025-07-26 18:37:47,994 - INFO - === 开始关键词过滤 ===
+2025-07-26 18:37:48,000 - INFO - 关键词过滤: 匹配 0 个，跳过 112 个
+2025-07-26 18:37:48,000 - INFO - 关键词过滤后统计 - Doonsec: 0 个, ChainReactors: 0 个, BruceFeIix: 0 个
+2025-07-26 18:37:48,000 - INFO - === 跳过二进制文件处理，只更新data.json ===
+2025-07-26 18:37:48,034 - INFO - 已更新data.json，添加了 0 个URL
+2025-07-26 18:37:48,034 - INFO - === 执行完成 ===
+2025-07-26 18:37:53,824 - INFO - === 开始执行微信文章归档工具 ===
+2025-07-26 18:37:53,824 - INFO - GitHub Actions环境: True
+2025-07-26 18:37:53,825 - INFO - 在GitHub Actions环境中运行，默认启用--skip-binary
+2025-07-26 18:37:53,825 - INFO - 数据文件: data.json
+2025-07-26 18:37:53,825 - INFO - 可执行文件: ./bin/wechatmp2markdown-v1.1.11_linux_amd64
+2025-07-26 18:37:53,825 - INFO - 文档目录: doc
+2025-07-26 18:37:53,858 - INFO - 已加载 17202 条历史记录
+2025-07-26 18:37:53,858 - INFO - === 开始日期区间拉取: 2025-07-25 到 2025-07-26 ===
+2025-07-26 18:37:53,860 - INFO - === 处理第 1/2 天: 2025-07-25 ===
+2025-07-26 18:37:53,860 - INFO - 开始获取Doonsec RSS
+2025-07-26 18:37:53,860 - INFO - 目标日期: 2025-07-25
+2025-07-26 18:37:54,205 - INFO - Doonsec RSS请求成功
+2025-07-26 18:37:54,208 - INFO - RSS中共有 200 个条目
+2025-07-26 18:37:54,208 - INFO - Doonsec获取到 86 个2025-07-25的微信文章URL
+2025-07-26 18:37:54,210 - INFO - ChainReactors md文件URL: https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/2025/2025-07-25.md
+2025-07-26 18:37:54,490 - INFO - ChainReactors md文件下载状态码: 200
+2025-07-26 18:37:54,493 - INFO - ChainReactors获取到 196 个URL
+2025-07-26 18:37:54,493 - INFO - BruceFeIix md文件URL: https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/2025/2025-07-25.md
+2025-07-26 18:37:54,747 - INFO - BruceFeIix md文件下载状态码: 200
+2025-07-26 18:37:54,749 - INFO - BruceFeIix获取到 193 个URL
+2025-07-26 18:37:54,749 - INFO - === 开始处理 2025-07-25 的数据 ===
+2025-07-26 18:37:54,749 - INFO - Doonsec原始数据: 86 个
+2025-07-26 18:37:54,749 - INFO - ChainReactors原始数据: 196 个
+2025-07-26 18:37:54,749 - INFO - BruceFeIix原始数据: 193 个
+2025-07-26 18:37:54,749 - INFO - 开始处理Doonsec数据...
+2025-07-26 18:37:54,749 - INFO - 开始处理ChainReactors数据...
+2025-07-26 18:37:54,750 - INFO - 开始处理BruceFeIix数据...
+2025-07-26 18:37:54,750 - INFO - 去重后共 202 个URL待处理，跳过 273 个重复URL
+2025-07-26 18:37:54,750 - INFO - 去重后统计 - Doonsec: 69 个, ChainReactors: 133 个, BruceFeIix: 0 个
+2025-07-26 18:37:54,750 - INFO - === 开始关键词过滤 ===
+2025-07-26 18:37:54,761 - INFO - 关键词过滤: 匹配 0 个，跳过 202 个
+2025-07-26 18:37:54,761 - INFO - 关键词过滤后统计 - Doonsec: 0 个, ChainReactors: 0 个, BruceFeIix: 0 个
+2025-07-26 18:37:54,761 - INFO - === 跳过二进制文件处理，只更新data.json ===
+2025-07-26 18:37:54,794 - INFO - 已更新data.json，添加了 0 个URL
+2025-07-26 18:37:54,794 - INFO - === 完成第 1/2 天处理 ===
+2025-07-26 18:37:54,794 - INFO - === 处理第 2/2 天: 2025-07-26 ===
+2025-07-26 18:37:54,794 - INFO - 开始获取Doonsec RSS
+2025-07-26 18:37:54,794 - INFO - 目标日期: 2025-07-26
+2025-07-26 18:37:55,192 - INFO - Doonsec RSS请求成功
+2025-07-26 18:37:55,195 - INFO - RSS中共有 200 个条目
+2025-07-26 18:37:55,196 - INFO - Doonsec获取到 114 个2025-07-26的微信文章URL
+2025-07-26 18:37:55,197 - INFO - ChainReactors md文件URL: https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/2025/2025-07-26.md
+2025-07-26 18:37:55,454 - INFO - ChainReactors md文件下载状态码: 200
+2025-07-26 18:37:55,456 - INFO - ChainReactors获取到 219 个URL
+2025-07-26 18:37:55,456 - INFO - BruceFeIix md文件URL: https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/2025/2025-07-26.md
+2025-07-26 18:37:55,698 - INFO - BruceFeIix md文件下载状态码: 200
+2025-07-26 18:37:55,700 - INFO - BruceFeIix获取到 215 个URL
+2025-07-26 18:37:55,700 - INFO - === 开始处理 2025-07-26 的数据 ===
+2025-07-26 18:37:55,700 - INFO - Doonsec原始数据: 114 个
+2025-07-26 18:37:55,700 - INFO - ChainReactors原始数据: 219 个
+2025-07-26 18:37:55,700 - INFO - BruceFeIix原始数据: 215 个
+2025-07-26 18:37:55,700 - INFO - 开始处理Doonsec数据...
+2025-07-26 18:37:55,700 - INFO - 开始处理ChainReactors数据...
+2025-07-26 18:37:55,701 - INFO - 开始处理BruceFeIix数据...
+2025-07-26 18:37:55,701 - INFO - 去重后共 260 个URL待处理，跳过 288 个重复URL
+2025-07-26 18:37:55,701 - INFO - 去重后统计 - Doonsec: 113 个, ChainReactors: 147 个, BruceFeIix: 0 个
+2025-07-26 18:37:55,701 - INFO - === 开始关键词过滤 ===
+2025-07-26 18:37:55,715 - INFO - 关键词过滤: 匹配 0 个，跳过 260 个
+2025-07-26 18:37:55,716 - INFO - 关键词过滤后统计 - Doonsec: 0 个, ChainReactors: 0 个, BruceFeIix: 0 个
+2025-07-26 18:37:55,716 - INFO - === 跳过二进制文件处理，只更新data.json ===
+2025-07-26 18:37:55,748 - INFO - 已更新data.json，添加了 0 个URL
+2025-07-26 18:37:55,748 - INFO - === 完成第 2/2 天处理 ===
+2025-07-26 18:37:55,748 - INFO - === 执行完成 ===
+2025-07-26 18:37:58,204 - INFO - === 开始执行微信文章归档工具 ===
+2025-07-26 18:37:58,205 - INFO - GitHub Actions环境: False
+2025-07-26 18:38:17,530 - INFO - === 开始执行微信文章归档工具 ===
+2025-07-26 18:38:17,530 - INFO - GitHub Actions环境: False
+2025-07-26 18:38:23,775 - INFO - === 开始执行微信文章归档工具 ===
+2025-07-26 18:38:23,775 - INFO - GitHub Actions环境: True
+2025-07-26 18:38:23,776 - INFO - 在GitHub Actions环境中运行，默认启用--skip-binary
+2025-07-26 18:38:23,776 - INFO - 数据文件: data.json
+2025-07-26 18:38:23,776 - INFO - 可执行文件: ./bin/wechatmp2markdown-v1.1.11_linux_amd64
+2025-07-26 18:38:23,776 - INFO - 文档目录: doc
+2025-07-26 18:38:23,811 - INFO - 已加载 17202 条历史记录
+2025-07-26 18:38:23,811 - INFO - === 开始指定日期拉取: 2025-07-20 ===
+2025-07-26 18:38:23,811 - INFO - 开始获取Doonsec RSS
+2025-07-26 18:38:23,811 - INFO - 目标日期: 2025-07-20
+2025-07-26 18:38:24,162 - INFO - Doonsec RSS请求成功
+2025-07-26 18:38:24,165 - INFO - RSS中共有 200 个条目
+2025-07-26 18:38:24,165 - INFO - Doonsec获取到 0 个2025-07-20的微信文章URL
+2025-07-26 18:38:24,167 - INFO - ChainReactors md文件URL: https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/2025/2025-07-20.md
+2025-07-26 18:38:24,415 - INFO - ChainReactors md文件下载状态码: 200
+2025-07-26 18:38:24,416 - INFO - ChainReactors获取到 168 个URL
+2025-07-26 18:38:24,416 - INFO - BruceFeIix md文件URL: https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/2025/2025-07-20.md
+2025-07-26 18:38:24,630 - INFO - BruceFeIix md文件下载状态码: 200
+2025-07-26 18:38:24,631 - INFO - BruceFeIix获取到 166 个URL
+2025-07-26 18:38:24,631 - INFO - === 开始处理 2025-07-20 的数据 ===
+2025-07-26 18:38:24,631 - INFO - Doonsec原始数据: 0 个
+2025-07-26 18:38:24,631 - INFO - ChainReactors原始数据: 168 个
+2025-07-26 18:38:24,631 - INFO - BruceFeIix原始数据: 166 个
+2025-07-26 18:38:24,631 - INFO - 开始处理Doonsec数据...
+2025-07-26 18:38:24,631 - INFO - 开始处理ChainReactors数据...
+2025-07-26 18:38:24,631 - INFO - 开始处理BruceFeIix数据...
+2025-07-26 18:38:24,632 - INFO - 去重后共 112 个URL待处理，跳过 222 个重复URL
+2025-07-26 18:38:24,632 - INFO - 去重后统计 - Doonsec: 0 个, ChainReactors: 112 个, BruceFeIix: 0 个
+2025-07-26 18:38:24,632 - INFO - === 开始关键词过滤 ===
+2025-07-26 18:38:24,638 - INFO - 关键词过滤: 匹配 0 个，跳过 112 个
+2025-07-26 18:38:24,638 - INFO - 关键词过滤后统计 - Doonsec: 0 个, ChainReactors: 0 个, BruceFeIix: 0 个
+2025-07-26 18:38:24,638 - INFO - === 跳过二进制文件处理，只更新data.json ===
+2025-07-26 18:38:24,670 - INFO - 已更新data.json，添加了 0 个URL
+2025-07-26 18:38:24,670 - INFO - === 执行完成 ===
+2025-07-26 18:42:26,961 - INFO - === 开始执行微信文章归档工具 ===
+2025-07-26 18:42:30,034 - INFO - === 开始执行微信文章归档工具 ===
+2025-07-26 18:42:30,035 - INFO - 数据文件: data.json
+2025-07-26 18:42:30,035 - INFO - 可执行文件: ./bin/wechatmp2markdown-v1.1.11_linux_amd64
+2025-07-26 18:42:30,035 - INFO - 文档目录: doc
+2025-07-26 18:42:30,069 - INFO - 已加载 17202 条历史记录
+2025-07-26 18:42:30,069 - INFO - === 开始指定日期拉取: 2025-07-20 ===
+2025-07-26 18:42:30,069 - INFO - 开始获取Doonsec RSS
+2025-07-26 18:42:30,069 - INFO - 目标日期: 2025-07-20
+2025-07-26 18:42:30,532 - INFO - Doonsec RSS请求成功
+2025-07-26 18:42:30,535 - INFO - RSS中共有 200 个条目
+2025-07-26 18:42:30,535 - INFO - Doonsec获取到 0 个2025-07-20的微信文章URL
+2025-07-26 18:42:30,537 - INFO - ChainReactors md文件URL: https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/2025/2025-07-20.md
+2025-07-26 18:42:31,073 - INFO - ChainReactors md文件下载状态码: 200
+2025-07-26 18:42:31,074 - INFO - ChainReactors获取到 168 个URL
+2025-07-26 18:42:31,074 - INFO - BruceFeIix md文件URL: https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/2025/2025-07-20.md
+2025-07-26 18:42:31,619 - INFO - BruceFeIix md文件下载状态码: 200
+2025-07-26 18:42:31,620 - INFO - BruceFeIix获取到 166 个URL
+2025-07-26 18:42:31,620 - INFO - === 开始处理 2025-07-20 的数据 ===
+2025-07-26 18:42:31,620 - INFO - Doonsec原始数据: 0 个
+2025-07-26 18:42:31,620 - INFO - ChainReactors原始数据: 168 个
+2025-07-26 18:42:31,620 - INFO - BruceFeIix原始数据: 166 个
+2025-07-26 18:42:31,620 - INFO - 开始处理Doonsec数据...
+2025-07-26 18:42:31,620 - INFO - 开始处理ChainReactors数据...
+2025-07-26 18:42:31,620 - INFO - 开始处理BruceFeIix数据...
+2025-07-26 18:42:31,620 - INFO - 去重后共 112 个URL待处理，跳过 222 个重复URL
+2025-07-26 18:42:31,620 - INFO - 去重后统计 - Doonsec: 0 个, ChainReactors: 112 个, BruceFeIix: 0 个
+2025-07-26 18:42:31,621 - INFO - === 开始关键词过滤 ===
+2025-07-26 18:42:31,626 - INFO - 关键词过滤: 匹配 0 个，跳过 112 个
+2025-07-26 18:42:31,626 - INFO - 关键词过滤后统计 - Doonsec: 0 个, ChainReactors: 0 个, BruceFeIix: 0 个
+2025-07-26 18:42:31,626 - INFO - === 跳过二进制文件处理，只更新data.json ===
+2025-07-26 18:42:31,658 - INFO - 已更新data.json，添加了 0 个URL
+2025-07-26 18:42:31,659 - INFO - === 执行完成 ===
+2025-07-26 18:43:10,324 - INFO - === 开始执行微信文章归档工具 ===
+2025-07-26 18:43:10,325 - INFO - 数据文件: data.json
+2025-07-26 18:43:10,325 - INFO - 可执行文件: ./bin/wechatmp2markdown-v1.1.11_linux_amd64
+2025-07-26 18:43:10,325 - INFO - 文档目录: doc
+2025-07-26 18:43:10,360 - INFO - 已加载 17202 条历史记录
+2025-07-26 18:43:10,360 - INFO - === 开始日期区间拉取: 2025-07-22 到 2025-07-26 ===
+2025-07-26 18:43:10,361 - INFO - === 处理第 1/5 天: 2025-07-22 ===
+2025-07-26 18:43:10,361 - INFO - 开始获取Doonsec RSS
+2025-07-26 18:43:10,361 - INFO - 目标日期: 2025-07-22
+2025-07-26 18:43:14,530 - INFO - Doonsec RSS请求成功
+2025-07-26 18:43:14,533 - INFO - RSS中共有 200 个条目
+2025-07-26 18:43:14,533 - INFO - Doonsec获取到 0 个2025-07-22的微信文章URL
+2025-07-26 18:43:14,535 - INFO - ChainReactors md文件URL: https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/2025/2025-07-22.md
+2025-07-26 18:43:16,738 - INFO - ChainReactors md文件下载状态码: 200
+2025-07-26 18:43:16,741 - INFO - ChainReactors获取到 103 个URL
+2025-07-26 18:43:16,741 - INFO - BruceFeIix md文件URL: https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/2025/2025-07-22.md
+2025-07-26 18:43:17,439 - INFO - BruceFeIix md文件下载状态码: 200
+2025-07-26 18:43:17,440 - INFO - BruceFeIix获取到 102 个URL
+2025-07-26 18:43:17,440 - INFO - === 开始处理 2025-07-22 的数据 ===
+2025-07-26 18:43:17,440 - INFO - Doonsec原始数据: 0 个
+2025-07-26 18:43:17,440 - INFO - ChainReactors原始数据: 103 个
+2025-07-26 18:43:17,440 - INFO - BruceFeIix原始数据: 102 个
+2025-07-26 18:43:17,441 - INFO - 开始处理Doonsec数据...
+2025-07-26 18:43:17,441 - INFO - 开始处理ChainReactors数据...
+2025-07-26 18:43:17,441 - INFO - 开始处理BruceFeIix数据...
+2025-07-26 18:43:17,441 - INFO - 去重后共 75 个URL待处理，跳过 130 个重复URL
+2025-07-26 18:43:17,441 - INFO - 去重后统计 - Doonsec: 0 个, ChainReactors: 75 个, BruceFeIix: 0 个
+2025-07-26 18:43:17,441 - INFO - === 开始关键词过滤 ===
+2025-07-26 18:43:17,445 - INFO - 关键词过滤: 匹配 21 个，跳过 54 个
+2025-07-26 18:43:17,445 - INFO - 关键词过滤后统计 - Doonsec: 0 个, ChainReactors: 21 个, BruceFeIix: 0 个
+2025-07-26 18:43:17,446 - INFO - 已创建每日报告: md/2025-07-22.md
+2025-07-26 18:43:17,446 - INFO - 开始处理URL: https://mp.weixin.qq.com/s?__biz=MzI3NzM5NDA0NA==&mid=2247491720&idx=1&sn=3858300026cf1ba7c1a5b209208ed675
+2025-07-26 18:43:17,446 - INFO - 目标日期: 2025-07-22
+2025-07-26 18:43:17,446 - INFO - 数据源: ChainReactors
+2025-07-26 18:43:17,446 - INFO - 生成目录结构: doc/2025/2025-07/2025-W30/2025-07-22
+2025-07-26 18:43:17,450 - ERROR - === 第 1/5 天处理失败: [Errno 8] Exec format error: './bin/wechatmp2markdown-v1.1.11_linux_amd64' ===
+2025-07-26 18:43:17,450 - ERROR - 跳过 2025-07-22 的处理，继续下一个日期
+2025-07-26 18:43:17,450 - INFO - === 处理第 2/5 天: 2025-07-23 ===
+2025-07-26 18:43:17,450 - INFO - 开始获取Doonsec RSS
+2025-07-26 18:43:17,450 - INFO - 目标日期: 2025-07-23
+2025-07-26 18:43:17,993 - INFO - Doonsec RSS请求成功
+2025-07-26 18:43:17,995 - INFO - RSS中共有 200 个条目
+2025-07-26 18:43:17,996 - INFO - Doonsec获取到 0 个2025-07-23的微信文章URL
+2025-07-26 18:43:17,998 - INFO - ChainReactors md文件URL: https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/2025/2025-07-23.md
+2025-07-26 18:43:18,567 - INFO - ChainReactors md文件下载状态码: 200
+2025-07-26 18:43:18,569 - INFO - ChainReactors获取到 109 个URL
+2025-07-26 18:43:18,569 - INFO - BruceFeIix md文件URL: https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/2025/2025-07-23.md
+2025-07-26 18:43:19,144 - INFO - BruceFeIix md文件下载状态码: 200
+2025-07-26 18:43:19,145 - INFO - BruceFeIix获取到 106 个URL
+2025-07-26 18:43:19,145 - INFO - === 开始处理 2025-07-23 的数据 ===
+2025-07-26 18:43:19,145 - INFO - Doonsec原始数据: 0 个
+2025-07-26 18:43:19,146 - INFO - ChainReactors原始数据: 109 个
+2025-07-26 18:43:19,146 - INFO - BruceFeIix原始数据: 106 个
+2025-07-26 18:43:19,146 - INFO - 开始处理Doonsec数据...
+2025-07-26 18:43:19,146 - INFO - 开始处理ChainReactors数据...
+2025-07-26 18:43:19,146 - INFO - 开始处理BruceFeIix数据...
+2025-07-26 18:43:19,146 - INFO - 去重后共 95 个URL待处理，跳过 120 个重复URL
+2025-07-26 18:43:19,146 - INFO - 去重后统计 - Doonsec: 0 个, ChainReactors: 95 个, BruceFeIix: 0 个
+2025-07-26 18:43:19,146 - INFO - === 开始关键词过滤 ===
+2025-07-26 18:43:19,151 - INFO - 关键词过滤: 匹配 33 个，跳过 62 个
+2025-07-26 18:43:19,151 - INFO - 关键词过滤后统计 - Doonsec: 0 个, ChainReactors: 33 个, BruceFeIix: 0 个
+2025-07-26 18:43:19,152 - INFO - 已创建每日报告: md/2025-07-23.md
+2025-07-26 18:43:19,152 - INFO - 开始处理URL: https://mp.weixin.qq.com/s?__biz=Mzk0MTIzNTgzMQ==&mid=2247522088&idx=1&sn=8f1bf0c4bc674820cb968ff6028063a0
+2025-07-26 18:43:19,152 - INFO - 目标日期: 2025-07-23
+2025-07-26 18:43:19,152 - INFO - 数据源: ChainReactors
+2025-07-26 18:43:19,152 - INFO - 生成目录结构: doc/2025/2025-07/2025-W30/2025-07-23
+2025-07-26 18:43:19,155 - ERROR - === 第 2/5 天处理失败: [Errno 8] Exec format error: './bin/wechatmp2markdown-v1.1.11_linux_amd64' ===
+2025-07-26 18:43:19,156 - ERROR - 跳过 2025-07-23 的处理，继续下一个日期
+2025-07-26 18:43:19,156 - INFO - === 处理第 3/5 天: 2025-07-24 ===
+2025-07-26 18:43:19,156 - INFO - 开始获取Doonsec RSS
+2025-07-26 18:43:19,156 - INFO - 目标日期: 2025-07-24
+2025-07-26 18:43:19,553 - INFO - Doonsec RSS请求成功
+2025-07-26 18:43:19,556 - INFO - RSS中共有 200 个条目
+2025-07-26 18:43:19,557 - INFO - Doonsec获取到 0 个2025-07-24的微信文章URL
+2025-07-26 18:43:19,558 - INFO - ChainReactors md文件URL: https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/2025/2025-07-24.md
+2025-07-26 18:43:20,179 - INFO - ChainReactors md文件下载状态码: 200
+2025-07-26 18:43:20,181 - INFO - ChainReactors获取到 233 个URL
+2025-07-26 18:43:20,181 - INFO - BruceFeIix md文件URL: https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/2025/2025-07-24.md
+2025-07-26 18:43:20,829 - INFO - BruceFeIix md文件下载状态码: 200
+2025-07-26 18:43:20,831 - INFO - BruceFeIix获取到 231 个URL
+2025-07-26 18:43:20,831 - INFO - === 开始处理 2025-07-24 的数据 ===
+2025-07-26 18:43:20,831 - INFO - Doonsec原始数据: 0 个
+2025-07-26 18:43:20,831 - INFO - ChainReactors原始数据: 233 个
+2025-07-26 18:43:20,831 - INFO - BruceFeIix原始数据: 231 个
+2025-07-26 18:43:20,832 - INFO - 开始处理Doonsec数据...
+2025-07-26 18:43:20,832 - INFO - 开始处理ChainReactors数据...
+2025-07-26 18:43:20,832 - INFO - 开始处理BruceFeIix数据...
+2025-07-26 18:43:20,832 - INFO - 去重后共 206 个URL待处理，跳过 258 个重复URL
+2025-07-26 18:43:20,832 - INFO - 去重后统计 - Doonsec: 0 个, ChainReactors: 206 个, BruceFeIix: 0 个
+2025-07-26 18:43:20,832 - INFO - === 开始关键词过滤 ===
+2025-07-26 18:43:20,841 - INFO - 关键词过滤: 匹配 59 个，跳过 147 个
+2025-07-26 18:43:20,841 - INFO - 关键词过滤后统计 - Doonsec: 0 个, ChainReactors: 59 个, BruceFeIix: 0 个
+2025-07-26 18:43:20,843 - INFO - 已创建每日报告: md/2025-07-24.md
+2025-07-26 18:43:20,843 - INFO - 开始处理URL: https://mp.weixin.qq.com/s?__biz=MzkzNjQwOTc4MQ==&mid=2247490568&idx=1&sn=35923a080a740d874c24091c7a1a22ea
+2025-07-26 18:43:20,843 - INFO - 目标日期: 2025-07-24
+2025-07-26 18:43:20,844 - INFO - 数据源: ChainReactors
+2025-07-26 18:43:20,844 - INFO - 生成目录结构: doc/2025/2025-07/2025-W30/2025-07-24
+2025-07-26 18:43:20,847 - ERROR - === 第 3/5 天处理失败: [Errno 8] Exec format error: './bin/wechatmp2markdown-v1.1.11_linux_amd64' ===
+2025-07-26 18:43:20,847 - ERROR - 跳过 2025-07-24 的处理，继续下一个日期
+2025-07-26 18:43:20,847 - INFO - === 处理第 4/5 天: 2025-07-25 ===
+2025-07-26 18:43:20,848 - INFO - 开始获取Doonsec RSS
+2025-07-26 18:43:20,848 - INFO - 目标日期: 2025-07-25
+2025-07-26 18:43:21,272 - INFO - Doonsec RSS请求成功
+2025-07-26 18:43:21,275 - INFO - RSS中共有 200 个条目
+2025-07-26 18:43:21,275 - INFO - Doonsec获取到 84 个2025-07-25的微信文章URL
+2025-07-26 18:43:21,277 - INFO - ChainReactors md文件URL: https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/2025/2025-07-25.md
+2025-07-26 18:43:21,924 - INFO - ChainReactors md文件下载状态码: 200
+2025-07-26 18:43:21,926 - INFO - ChainReactors获取到 196 个URL
+2025-07-26 18:43:21,926 - INFO - BruceFeIix md文件URL: https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/2025/2025-07-25.md
+2025-07-26 18:43:22,563 - INFO - BruceFeIix md文件下载状态码: 200
+2025-07-26 18:43:22,565 - INFO - BruceFeIix获取到 193 个URL
+2025-07-26 18:43:22,565 - INFO - === 开始处理 2025-07-25 的数据 ===
+2025-07-26 18:43:22,565 - INFO - Doonsec原始数据: 84 个
+2025-07-26 18:43:22,565 - INFO - ChainReactors原始数据: 196 个
+2025-07-26 18:43:22,565 - INFO - BruceFeIix原始数据: 193 个
+2025-07-26 18:43:22,565 - INFO - 开始处理Doonsec数据...
+2025-07-26 18:43:22,565 - INFO - 开始处理ChainReactors数据...
+2025-07-26 18:43:22,565 - INFO - 开始处理BruceFeIix数据...
+2025-07-26 18:43:22,566 - INFO - 去重后共 200 个URL待处理，跳过 273 个重复URL
+2025-07-26 18:43:22,566 - INFO - 去重后统计 - Doonsec: 67 个, ChainReactors: 133 个, BruceFeIix: 0 个
+2025-07-26 18:43:22,566 - INFO - === 开始关键词过滤 ===
+2025-07-26 18:43:22,576 - INFO - 关键词过滤: 匹配 0 个，跳过 200 个
+2025-07-26 18:43:22,576 - INFO - 关键词过滤后统计 - Doonsec: 0 个, ChainReactors: 0 个, BruceFeIix: 0 个
+2025-07-26 18:43:22,576 - INFO - === 完成第 4/5 天处理 ===
+2025-07-26 18:43:22,576 - INFO - === 处理第 5/5 天: 2025-07-26 ===
+2025-07-26 18:43:22,576 - INFO - 开始获取Doonsec RSS
+2025-07-26 18:43:22,577 - INFO - 目标日期: 2025-07-26
+2025-07-26 18:43:23,011 - INFO - Doonsec RSS请求成功
+2025-07-26 18:43:23,013 - INFO - RSS中共有 200 个条目
+2025-07-26 18:43:23,014 - INFO - Doonsec获取到 116 个2025-07-26的微信文章URL
+2025-07-26 18:43:23,015 - INFO - ChainReactors md文件URL: https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/2025/2025-07-26.md
+2025-07-26 18:43:23,748 - INFO - ChainReactors md文件下载状态码: 200
+2025-07-26 18:43:23,750 - INFO - ChainReactors获取到 219 个URL
+2025-07-26 18:43:23,750 - INFO - BruceFeIix md文件URL: https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/2025/2025-07-26.md
+2025-07-26 18:43:24,424 - INFO - BruceFeIix md文件下载状态码: 200
+2025-07-26 18:43:24,426 - INFO - BruceFeIix获取到 215 个URL
+2025-07-26 18:43:24,426 - INFO - === 开始处理 2025-07-26 的数据 ===
+2025-07-26 18:43:24,426 - INFO - Doonsec原始数据: 116 个
+2025-07-26 18:43:24,426 - INFO - ChainReactors原始数据: 219 个
+2025-07-26 18:43:24,426 - INFO - BruceFeIix原始数据: 215 个
+2025-07-26 18:43:24,426 - INFO - 开始处理Doonsec数据...
+2025-07-26 18:43:24,426 - INFO - 开始处理ChainReactors数据...
+2025-07-26 18:43:24,427 - INFO - 开始处理BruceFeIix数据...
+2025-07-26 18:43:24,427 - INFO - 去重后共 262 个URL待处理，跳过 288 个重复URL
+2025-07-26 18:43:24,427 - INFO - 去重后统计 - Doonsec: 115 个, ChainReactors: 147 个, BruceFeIix: 0 个
+2025-07-26 18:43:24,427 - INFO - === 开始关键词过滤 ===
+2025-07-26 18:43:24,441 - INFO - 关键词过滤: 匹配 0 个，跳过 262 个
+2025-07-26 18:43:24,441 - INFO - 关键词过滤后统计 - Doonsec: 0 个, ChainReactors: 0 个, BruceFeIix: 0 个
+2025-07-26 18:43:24,441 - INFO - === 完成第 5/5 天处理 ===
+2025-07-26 18:43:24,441 - INFO - === 执行完成 ===
