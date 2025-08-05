@@ -18071,5 +18071,6 @@
     "https://mp.weixin.qq.com/s?__biz=MzUzOTE2OTM5Mg==&mid=2247490517&idx=3&sn=bae53155c64e16562330c1dde34102e8": "CNCERT/CC圆满完成2025年APCERT应急演练",
     "https://mp.weixin.qq.com/s?__biz=MzI3NzMzNzE5Ng==&mid=2247490555&idx=1&sn=b61eb8771cc90524d7cf3b2212f10ecf": "【高危AI漏洞预警】Cursor远程代码执行漏洞 CVE-2025-54135",
     "https://mp.weixin.qq.com/s?__biz=MzI3NzMzNzE5Ng==&mid=2247490555&idx=2&sn=2ffb4659bea077b96d304a44cea8b44d": "【高危漏洞预警】Triton Inference Server 越界内存写入致代码执行漏洞CVE-2025-23319",
-    "https://mp.weixin.qq.com/s?__biz=MzI0MzM3NTQ5MA==&mid=2247484675&idx=1&sn=a064a24411b1b46067d26538da600ce5": "PHP、Java、JavaScrip、python反序列化漏洞大盘点 - PHP漏洞分析"
+    "https://mp.weixin.qq.com/s?__biz=MzI0MzM3NTQ5MA==&mid=2247484675&idx=1&sn=a064a24411b1b46067d26538da600ce5": "PHP、Java、JavaScrip、python反序列化漏洞大盘点 - PHP漏洞分析",
+    "https://mp.weixin.qq.com/s?__biz=MzIxMjEzMDkyMA==&mid=2247488845&idx=1&sn=ac1a2568157822f074e11fc68dae6422": "金和OA TaskTreeJSON.aspx接口存在sql注入漏洞 附POC"
 }
