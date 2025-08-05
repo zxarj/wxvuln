@@ -18056,5 +18056,20 @@
     "https://mp.weixin.qq.com/s?__biz=Mzk0NzQxNzY2OQ==&mid=2247489771&idx=1&sn=9b1f3e41d0d0e4503ac2def8fe632f7e": "断点调试 | 打碎双层加密，进入后台直接拿下多个漏洞，发现竟是通用系统",
     "https://mp.weixin.qq.com/s?__biz=MzA3NTIyNzgwNA==&mid=2650260422&idx=1&sn=61a8fafa35d5043c79dd8a6894de0350": "让CISO夜不能寐的六大隐忧",
     "https://mp.weixin.qq.com/s?__biz=MzkyOTQ0MjE1NQ==&mid=2247502817&idx=1&sn=189a5490e0cee5705b6c58511d4fbb93": "【应急响应工具教程】主机侧Checklist的自动全面化检测脚本-GScan",
-    "https://mp.weixin.qq.com/s?__biz=Mzg2NTk4MTE1MQ==&mid=2247487683&idx=1&sn=60c77805662a8f013d62aa94d12ba11a": "大洞，速修，1Panel 面板 RCE 任意命令执行"
+    "https://mp.weixin.qq.com/s?__biz=Mzg2NTk4MTE1MQ==&mid=2247487683&idx=1&sn=60c77805662a8f013d62aa94d12ba11a": "大洞，速修，1Panel 面板 RCE 任意命令执行",
+    "https://mp.weixin.qq.com/s?__biz=MzkzMjIwNzM1Ng==&mid=2247484969&idx=1&sn=43f57efe3c2ea25cd8011fb3160fb197": "杂项(3)--java中websocket内存马基本使用",
+    "https://mp.weixin.qq.com/s?__biz=MzIxMTg1ODAwNw==&mid=2247501095&idx=1&sn=0a1d3ba1b42d5fea7b78d061de92c75d": "【CVE-2025-54135】Cursor远程代码执行漏洞",
+    "https://mp.weixin.qq.com/s?__biz=Mzk0MTIzNTgzMQ==&mid=2247522531&idx=1&sn=19cabac6cb7f18d64be17a9594aa990f": "【代发】SRC实战：记一次渗透测试",
+    "https://mp.weixin.qq.com/s?__biz=Mzg2NTYyODgyNg==&mid=2247507387&idx=1&sn=9188f5511dfa66c48a1068671820697c": "美最大威胁情报公司分析中国军事AI，多家中国公司被重点关注",
+    "https://mp.weixin.qq.com/s?__biz=MzU0NDk0NTAwMw==&mid=2247628534&idx=1&sn=57c6f32cc5de9222fa44ffc91ef9794f": "《2025年中漏洞态势研究报告》：漏洞呈现数量增、威胁大、攻击快三大特征",
+    "https://mp.weixin.qq.com/s?__biz=MzU0NDk0NTAwMw==&mid=2247628534&idx=2&sn=df5383476518bf5b67b0128bcd43ec53": "银狐木马肆虐？奇安信天擎构建主动免疫防御体系",
+    "https://mp.weixin.qq.com/s?__biz=MzkzNTgzOTg4Mg==&mid=2247485916&idx=1&sn=59df3e159d3519dda972af046c8835a1": "1Panel 面板 RCE 任意命令执行",
+    "https://mp.weixin.qq.com/s?__biz=MzkzODU3MzA5OQ==&mid=2247484920&idx=1&sn=2ad41ba2e484da981edb9763e42ca3e8": "通过Prompt Injection导 ChatGPT数据泄露",
+    "https://mp.weixin.qq.com/s?__biz=MzI5NTM4OTQ5Mg==&mid=2247636849&idx=4&sn=c8fc60e5dc55f0da8a2d349e7dcd0b24": "利用NVIDIA Triton服务器漏洞链可实现AI系统远程接管",
+    "https://mp.weixin.qq.com/s?__biz=MzUzOTE2OTM5Mg==&mid=2247490517&idx=1&sn=5a2e0223e0e1325bee768bddf04909c4": "【AI风险通告】Cursor存在远程代码执行漏洞（CVE-2025-54135）",
+    "https://mp.weixin.qq.com/s?__biz=MzUzOTE2OTM5Mg==&mid=2247490517&idx=2&sn=4e8cc7ef6cfc2e3f6cc4b1223b9f9fc9": "关于“黑猫”团伙利用搜索引擎传播捆绑远控木马的知名应用程序安装包的风险提示",
+    "https://mp.weixin.qq.com/s?__biz=MzUzOTE2OTM5Mg==&mid=2247490517&idx=3&sn=bae53155c64e16562330c1dde34102e8": "CNCERT/CC圆满完成2025年APCERT应急演练",
+    "https://mp.weixin.qq.com/s?__biz=MzI3NzMzNzE5Ng==&mid=2247490555&idx=1&sn=b61eb8771cc90524d7cf3b2212f10ecf": "【高危AI漏洞预警】Cursor远程代码执行漏洞 CVE-2025-54135",
+    "https://mp.weixin.qq.com/s?__biz=MzI3NzMzNzE5Ng==&mid=2247490555&idx=2&sn=2ffb4659bea077b96d304a44cea8b44d": "【高危漏洞预警】Triton Inference Server 越界内存写入致代码执行漏洞CVE-2025-23319",
+    "https://mp.weixin.qq.com/s?__biz=MzI0MzM3NTQ5MA==&mid=2247484675&idx=1&sn=a064a24411b1b46067d26538da600ce5": "PHP、Java、JavaScrip、python反序列化漏洞大盘点 - PHP漏洞分析"
 }
