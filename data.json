@@ -18072,5 +18072,11 @@
     "https://mp.weixin.qq.com/s?__biz=MzI3NzMzNzE5Ng==&mid=2247490555&idx=1&sn=b61eb8771cc90524d7cf3b2212f10ecf": "【高危AI漏洞预警】Cursor远程代码执行漏洞 CVE-2025-54135",
     "https://mp.weixin.qq.com/s?__biz=MzI3NzMzNzE5Ng==&mid=2247490555&idx=2&sn=2ffb4659bea077b96d304a44cea8b44d": "【高危漏洞预警】Triton Inference Server 越界内存写入致代码执行漏洞CVE-2025-23319",
     "https://mp.weixin.qq.com/s?__biz=MzI0MzM3NTQ5MA==&mid=2247484675&idx=1&sn=a064a24411b1b46067d26538da600ce5": "PHP、Java、JavaScrip、python反序列化漏洞大盘点 - PHP漏洞分析",
-    "https://mp.weixin.qq.com/s?__biz=MzIxMjEzMDkyMA==&mid=2247488845&idx=1&sn=ac1a2568157822f074e11fc68dae6422": "金和OA TaskTreeJSON.aspx接口存在sql注入漏洞 附POC"
+    "https://mp.weixin.qq.com/s?__biz=MzIxMjEzMDkyMA==&mid=2247488845&idx=1&sn=ac1a2568157822f074e11fc68dae6422": "金和OA TaskTreeJSON.aspx接口存在sql注入漏洞 附POC",
+    "https://mp.weixin.qq.com/s?__biz=MzU2NDY2OTU4Nw==&mid=2247522478&idx=1&sn=09325340cabcbaa82e73dd64e46ef95f": "DC-9靶机复现",
+    "https://mp.weixin.qq.com/s?__biz=Mzg2NjY2MTI3Mg==&mid=2247501217&idx=1&sn=f99a40ecd8ef969ee74eb0a2878e19ef": "缓解内部威胁：将内部威胁意识纳入对所有员工的定期安全培训中",
+    "https://mp.weixin.qq.com/s?__biz=MzA5MzU5MzQzMA==&mid=2652117439&idx=1&sn=939287e32a00aad0e8313d7cca8e91f3": "等级保护建设：物理访问控制、防盗窃和防破坏",
+    "https://mp.weixin.qq.com/s?__biz=Mzg3NTUzOTg3NA==&mid=2247516027&idx=1&sn=28b73918dd4daaa6572ca494b21b7fb0": "网络安全架构设计与区域划分要点",
+    "https://mp.weixin.qq.com/s?__biz=Mzg3ODY0NTczMA==&mid=2247493307&idx=1&sn=b7e365f86f9ec66ce7b17e1e0f7dd166": "英国 NCSC 确认俄罗斯 GRU 利用恶意软件窃取 Microsoft 365 凭证",
+    "https://mp.weixin.qq.com/s?__biz=Mzg3ODE2MjkxMQ==&mid=2247493654&idx=1&sn=4528e269d8610fdc5616d22a39008cb9": "强大的网络空间测绘、资产管理、漏洞扫描等全生命漏洞周期的综合攻击面管理平台|工具分享"
 }
