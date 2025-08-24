@@ -7081,3 +7081,33 @@
 2025-08-24 16:18:36,368 - INFO - 已更新data.json，添加了 10 个URL
 2025-08-24 16:18:36,369 - INFO - 已创建每日报告: md/2025-08-24.md
 2025-08-24 16:18:36,369 - INFO - === 执行完成 ===
+2025-08-24 20:17:21,434 - INFO - === 开始执行微信文章归档工具 ===
+2025-08-24 20:17:21,435 - INFO - 数据文件: data.json
+2025-08-24 20:17:21,435 - INFO - 可执行文件: ./bin/wechatmp2markdown-v1.1.11_linux_amd64
+2025-08-24 20:17:21,435 - INFO - 文档目录: doc
+2025-08-24 20:17:21,470 - INFO - 已加载 19645 条历史记录
+2025-08-24 20:17:21,470 - INFO - === 开始今日拉取 ===
+2025-08-24 20:17:21,470 - INFO - 开始获取Doonsec RSS
+2025-08-24 20:17:21,470 - INFO - 目标日期: 2025-08-24
+2025-08-24 20:17:30,562 - ERROR - Doonsec RSS解析失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-08-24 20:17:30,562 - INFO - ChainReactors md文件URL: https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/2025/2025-08-24.md
+2025-08-24 20:17:30,701 - INFO - ChainReactors md文件下载状态码: 200
+2025-08-24 20:17:30,703 - INFO - ChainReactors获取到 138 个URL
+2025-08-24 20:17:30,703 - INFO - BruceFeIix md文件URL: https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/2025/2025-08-24.md
+2025-08-24 20:17:30,835 - INFO - BruceFeIix md文件下载状态码: 200
+2025-08-24 20:17:30,836 - INFO - BruceFeIix获取到 138 个URL
+2025-08-24 20:17:30,836 - INFO - === 开始处理 2025-08-24 的数据 ===
+2025-08-24 20:17:30,836 - INFO - Doonsec原始数据: 0 个
+2025-08-24 20:17:30,836 - INFO - ChainReactors原始数据: 138 个
+2025-08-24 20:17:30,836 - INFO - BruceFeIix原始数据: 138 个
+2025-08-24 20:17:30,836 - INFO - 开始处理Doonsec数据...
+2025-08-24 20:17:30,836 - INFO - 开始处理ChainReactors数据...
+2025-08-24 20:17:30,837 - INFO - 开始处理BruceFeIix数据...
+2025-08-24 20:17:30,837 - INFO - 去重后共 93 个URL待处理，跳过 183 个重复URL
+2025-08-24 20:17:30,837 - INFO - 去重后统计 - Doonsec: 0 个, ChainReactors: 93 个, BruceFeIix: 0 个
+2025-08-24 20:17:30,837 - INFO - === 开始关键词过滤 ===
+2025-08-24 20:17:30,840 - INFO - 关键词过滤: 匹配 0 个，跳过 93 个
+2025-08-24 20:17:30,840 - INFO - 关键词过滤后统计 - Doonsec: 0 个, ChainReactors: 0 个, BruceFeIix: 0 个
+2025-08-24 20:17:30,840 - INFO - === 跳过二进制文件处理，只更新data.json ===
+2025-08-24 20:17:30,873 - INFO - 已更新data.json，添加了 0 个URL
+2025-08-24 20:17:30,874 - INFO - === 执行完成 ===
